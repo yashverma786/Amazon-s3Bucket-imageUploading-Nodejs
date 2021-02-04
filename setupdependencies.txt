@@ -1,0 +1,20 @@
+npm i aws-sdk
+npm i multer
+npm i dotenv nodemon
+npm i uuid     // this will generate random string
+
+
+con to website = aws console-> login your account
+click on profile-> my security credentials->click on Access key dropdown -> create new accesskey
+copy id and key->then go back one step->on search tag find s3-> click on s3
+CLICK ON CREATE bucket button and create the bucket
+
+
+executable command:- nodemon node index.js
+
+go to postman
+choose method=post
+select formdata
+formdatatype=file
+key=image , value= file jo aap upload kroge
+
